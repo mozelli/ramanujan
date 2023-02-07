@@ -2,6 +2,27 @@
   border-bottom: 1px solid #e0e0e0;
 }
 
+
+/* Feature */
+#Post article h1.feature {
+  margin-top: 2rem;
+}
+#Post article span.authorName.feature {
+  margin-top: 1rem;
+  display: block;
+  font-weight: 500;
+}
+
+#Post article img.responsive-img.feature {
+  height: 300px;
+  /* margin-top: 1.68rem;
+  height: auto; */
+  object-fit:fill;
+  /* width: 100%;
+  height: 6rem; */
+}
+/* End Feature */
+
 #Post article span.category {
   margin-top: 1.8rem;
   display: block;

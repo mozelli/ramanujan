@@ -1,6 +1,25 @@
 import './styles.css';
 
 const Post = ({ article }) => {
+  if(article?.feature) {
+    return (
+      <div id='Post'>
+        <article>
+          <div className="row">
+            <div className="col s12">
+              <header>
+                <h1 className='feature'>{article?.title}</h1>
+              </header>
+              <span className="authorName feature">Author Name</span>
+            </div>
+            <div className="col s12">
+              <img className="responsive-img feature" src="https://images.unsplash.com/photo-1534270804882-6b5048b1c1fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=406&q=80" alt="" />
+            </div>
+          </div>
+        </article>
+      </div>
+    )
+  }
   return (
     <div id="Post">
       <article>

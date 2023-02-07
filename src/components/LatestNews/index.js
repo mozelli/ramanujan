@@ -21,17 +21,14 @@ const LatestNews = () => {
   }, []);
 
   return (
-    <div id="latestNews">
-      <div className="section">
-        <h5>Latest News</h5>
-          {
-            posts.map((post) => {
-              return (
-                <Post article={post} key={post.id} />
-              )
-            })
-          }
-      </div>
+    <div className="section">
+      {
+        posts.map((post) => {
+          return (
+            <Post article={post} key={post.id} />
+          )
+        })
+      }
     </div>
   )
 }
