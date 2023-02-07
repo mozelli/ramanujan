@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
+import Post from "./Post";
 
+import './styles.css';
 
 const LatestNews = () => {
   const [posts, setPosts] = useState([]);
@@ -19,17 +21,18 @@ const LatestNews = () => {
   }, []);
 
   return (
-    <div className="section">
-      <h5>Latest News</h5>
-      {
-        posts.map((post) => {
-          return (
-            <h1 key={post?.id}>{post?.title}</h1>
-          )
-        })
-      }
+    <div id="latestNews">
+      <div className="section">
+        <h5>Latest News</h5>
+          {
+            posts.map((post) => {
+              return (
+                <Post article={post} key={post.id} />
+              )
+            })
+          }
+      </div>
     </div>
-    
   )
 }
 
