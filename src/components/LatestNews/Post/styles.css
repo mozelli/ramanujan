@@ -1,0 +1,41 @@
+#Post article {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#Post article span.category {
+  margin-top: 1.8rem;
+  display: block;
+  color: #ff6d00;
+}
+
+#Post article h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+#Post article span.authorName {
+  margin-top: .5rem;
+  display: block;
+  font-weight: 500;
+}
+
+#Post article span.postDate {
+  margin-bottom: 1.68rem;
+  display: block;
+  color: #757575;
+}
+
+#Post article .imgContainer {
+  height: 100px;
+}
+
+#Post article img.responsive-img {
+  margin-top: 1.68rem;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 6rem;
+
+}
