@@ -8,11 +8,11 @@ const LatestNews = () => {
   
   const fetchData = async () => {
     try {
-      const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+      const response = await fetch("http://localhost:8000/posts");
       const json = await response.json();
       setPosts(json);
     } catch(error) {
-      console.log(error.message);
+      console.log(error);
     }
   }
 
