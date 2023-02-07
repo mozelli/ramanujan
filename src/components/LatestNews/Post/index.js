@@ -13,7 +13,7 @@ const Post = ({ article }) => {
               <span className="authorName feature">Author Name</span>
             </div>
             <div className="col s12">
-              <img className="responsive-img feature" src="https://images.unsplash.com/photo-1534270804882-6b5048b1c1fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=406&q=80" alt="" />
+              <img className="responsive-img feature" src={article?.imgPath} alt={article?.title} />
             </div>
           </div>
         </article>
@@ -34,7 +34,7 @@ const Post = ({ article }) => {
           </div>
           <div className="col s4">
             <div className="imgContainer">
-              <img className="responsive-img" src="https://images.unsplash.com/photo-1534270804882-6b5048b1c1fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=406&q=80" alt="" />
+              <img className="responsive-img" src={article?.imgPath} alt={article?.title} />
             </div>
           </div>
         </div>
