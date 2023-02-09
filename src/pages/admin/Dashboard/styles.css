@@ -1,0 +1,33 @@
+#Dashboard {
+  background-color: #424242;
+  height: 100vh;
+}
+
+#Dashboard.col {
+  padding: 0;
+}
+
+#Dashboard .sideMenu {
+}
+
+#Dashboard .sideMenu .navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+#Dashboard .sideMenu a {
+  display: block;
+  background-color: #424242;
+  padding: .8rem 0rem;
+  text-decoration: none;
+  color: white;
+}
+
+#Dashboard .sideMenu a:hover {
+  background-color: #616161;
+}
+
+#Dashboard .display {
+  background-color: white;
+  height: 100vh;
+}
