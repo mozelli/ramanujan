@@ -2,3 +2,11 @@ input#title {
   font-size: 2rem;
   font-weight: 700;
 }
+
+.publish, .example {
+  margin-right: .5rem;
+}
+
+.col.buttons {
+  margin-top: 1.68rem;
+}
