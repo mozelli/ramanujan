@@ -5,6 +5,8 @@ import Router from './Router';
 function App() {
   useEffect(() => {
     M.AutoInit()
+    var elems = document.querySelectorAll('.chips');
+    M.Chips.init(elems);
   }, [])
 
   return (
