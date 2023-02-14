@@ -1,0 +1,17 @@
+#ListPosts h6 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/* #ListPosts p.postData {
+  margin-top: 0rem;
+  font-size: .9rem;
+  color: #757575;
+} */
+
+#ListPosts p.status {
+  margin-top: 0rem;
+  font-size: .9rem;
+  color: #757575;
+  font-weight: 700;
+}
