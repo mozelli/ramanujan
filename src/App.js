@@ -3,15 +3,15 @@ import M from 'materialize-css';
 import Router from './Router';
 
 function App() {
-  useEffect(() => {
-    M.AutoInit()
+  useEffect(() => { 
+    M.AutoInit() 
     var elems = document.querySelectorAll('.chips');
-    M.Chips.init(elems);
+    M.Chips.init(elems);  
   }, [])
 
   return (
     <div className="App">
-      <Router />
+      <Router /> 
     </div>
   );
 }
