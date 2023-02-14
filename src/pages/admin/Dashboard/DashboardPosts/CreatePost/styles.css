@@ -1,6 +1,43 @@
-input#title {
+.workspace .editor .postTitle input[type="text"] {
+  margin: 1.68rem 0;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 500;
+}
+
+.workspace .editor .imageUpload {
+  margin: 1.68rem 0;
+}
+
+.workspace .editor .imageUpload .imagePreview {
+  
+}
+
+.workspace .details .tags .row.inputTag {
+  margin-bottom: 0rem;
+}
+
+.workspace .details .actions button {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.uploadButton label {
+  font-size: .8rem;
+  padding: 0 .7rem;
+  line-height: 34px;
+  height: 34px;
+  display: inline-block;
+  background-color: #2bbbad;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 14%), 0 1px 7px 0 rgb(0 0 0 / 12%), 0 3px 1px -1px rgb(0 0 0 / 20%);
+}
+
+.uploadButton input[type="file"] {
+  display: none;
 }
 
 .publish, .example {
